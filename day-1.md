@@ -29,8 +29,28 @@
 - [ ] Convert my first blog post into an actual webpage.
 
 ---
+<!-- Add Code Block >
 ## Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
 
 ```bash
 ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
 ```
+
+---
+<!-- Relative URL to an image in the repository -->
+
+![Mona the Octocat](myrepo/original.png)
+
+<!-- Absolute URL to an image on the internet -->
+
+<img alt="Mona the Octocat" src="https://octodex.github.com/images/original.png"
+width="200" align="right">
+
+<br> <br> <br> <br> <br>
+
+---
+# Morning Planning
+
+<img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
+
+
